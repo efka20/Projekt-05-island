@@ -16,14 +16,427 @@ body {
     font-size: 16px;
     line-height: 1.6;
 }
+/* mobil */
+/*@media (max width: 500px)/
+/* tablet */
+/*@media (min width: 500px) and (max width: 1000px)/
+/* pc */
+/*@media (min width:1000px)///
+
+mobil
+@media (max-width: 500px)
 
 
+
+
+
+
+mobil
 /* HLAVICKA */
+@media (max-width: 500px){
+    .hlavicka{
+        display: flex;
+        display: block;    
+        justify-content: center;
+        text-align: center;
+        color: white;
+        background-image:  radial-gradient(circle, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("images/island-hlavicka.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: black;
+        width: auto;
+        padding: 10px 10px 10px 10px;
+        height: 250px;
+        margin: 0px;
+    
+    }
+    .titulek {
+        font-family: 'Raleway', serif;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+        
+}
+.perex{
+    font-size: 10px;
+}
+.autor{
+    font-style: italic;
+    font-size: 9px;
+}
+h2::after{
+    content: " ";
+    width: 80px;
+    height: 3px;
+    background-color:rgb(96, 162, 184);
+    display: block;
+    margin-top: 20px;
+
+}
+.obsah{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    background-color: white;
+    
+}
+.menu{
+    list-style-type: none;
+    text-transform: uppercase;
+    color: grey;
+    text-decoration: none;
+    
+    font-size: 13px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+.uvod {
+    font-size: 10px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.proc{
+    font-size: 10px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.co_musite_videt{
+    font-size: 10px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.zbytek{
+    font-size: 10px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h2{
+    font-size: 15px;
+}
+.popisek{
+    text-align: center; 
+    color: grey;
+    text-decoration: none;
+    font-size: 10px;
+    }
+.galerie{
+    width: auto;
+    border-bottom: gray;
+    
+}
+img{
+    width: auto;
+}
+
+.paticka{
+    color: grey;
+    text-decoration: none;
+    font-size: 10px;
+}
+}
+
+
+/*tablet*/
+@media (min-width: 500px) and (max-width: 1000px){
+.hlavicka{
+    display: flex;
+    display: block;    
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image:  radial-gradient(circle, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("images/island-hlavicka.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    height: 300px;
+    padding: 10px 10px 10px 10px;
+    width: 500px;
+    margin: 0px;
+
+}
+.titulek {
+    font-family: 'Raleway', serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.perex{
+font-size: 15px;
+}
+.autor{
+font-style: italic;
+font-size:12px;
+}
+h2::after{
+content: " ";
+width: 80px;
+height: 3px;
+background-color:rgb(96, 162, 184);
+display: block;
+margin-top: 20px;
+
+}
+.obsah{
+display: flex;
+justify-content: center;
+flex-direction: column;
+background-color: white;
+width: 500px;
+}
+
+.menu{
+list-style-type: none;
+text-transform: uppercase;
+color: grey;
+text-decoration: none;
+font-size: 15px;
+text-align: center;
+}
+
+a{
+text-decoration: none;
+color: gray;
+}
+
+
+.uvod {
+    font-size: 15px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.proc{
+    font-size: 15px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.co_musite_videt{
+    font-size: 15px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.zbytek{
+    font-size: 15px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h2{
+    font-size: 20px;
+}
+.popisek{
+    display: none;
+    }
+.galerie{
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    
+    
+}
+.foto{
+    flex-basis: 50%;
+}
+img{
+    display: block;
+    
+}
+
+.paticka{
+    color: grey;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/*pc*/
+@media (min-width: 1000px){
+.hlavicka{
+    display: flex;
+    display: block;    
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image:  radial-gradient(circle, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("images/island-hlavicka.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    width: auto;
+    height: 500px;
+    margin: 0px;
+
+}
+
 
 .titulek {
     font-family: 'Raleway', serif;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+.perex{
+    max-width: 960px;
+    text-align: center;
+    margin-left: 400px;
 }
 
+.autor{
+    font-style: italic;
+}
+
+h2::after{
+    content: " ";
+    width: 80px;
+    height: 3px;
+    background-color:rgb(96, 162, 184);
+    display: block;
+    margin-top: 20px;
+    
+}
+
+.obsah{
+    margin-left: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 960px;
+    margin-top: -100px;
+    background-color: white;
+    box-shadow: grey 4px 3px 20px; 
+}
+
+.menu{
+    list-style-type: none;
+    text-transform: uppercase;
+    color: grey;
+    text-decoration: none;
+    justify-content: space-around;
+    font-size: 13px;
+}
+
+.prvni_oddil{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.uvod{
+    padding-left: 80px;
+    padding-right: 60px;
+    
+}
+
+.proc{
+    margin-top: 40px;
+    margin-left: 50px;
+    padding-right: 280px;
+    margin-bottom: 40px;
+}
+
+.co_musite_videt {
+    margin-top: 40px;
+    margin-left: 180px;
+    padding-right: 60px;
+    margin-bottom: 40px;
+}
+
+.zbytek{
+    margin-top: 40px;
+    margin-left: 180px;
+    padding-right: 60px;
+    margin-bottom: 40px;
+}
+.popisek{
+    text-align: right;
+    padding-right: 20px;
+    margin-top: -50px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    }
+
+.popisek-copy{
+    text-decoration: none;
+}
+
+.galerie{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 960px;
+    
+}
+img {
+    display: block;
+   }
+
+.foto{
+    flex-basis: 33%;
+    
+}
+.popisek{
+    display: none;
+}
+.paticka{
+    color: grey;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+}
 
 /* MENU */
 
